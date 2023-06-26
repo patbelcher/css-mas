@@ -1,0 +1,58 @@
+#media div:nth-child(1) {
+    display: none;
+}
+
+#media div:nth-child(2) {
+    border: green 5px dashed;
+}
+
+#media div:nth-child(3) {
+    background-color: pink
+}
+
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 376px) {
+    #media div:nth-child(1) {
+        display:contents;
+        background-color: red;
+    }
+    
+    #media div:nth-child(2) {
+        background-color: green;
+    }
+    
+    #media div:nth-child(3) {
+        background-color: yellow;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #media div:nth-child(1) {
+        background-color: yellow;
+        color: orange;
+    }
+    
+    #media div:nth-child(2) {
+        background-color: green;
+        color: pink;
+    }
+    
+    #media div:nth-child(3) {
+        border: blue 10px solid;
+    }
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }

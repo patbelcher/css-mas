@@ -1,0 +1,14 @@
+#box div {
+    background-color: red;
+    padding: 20px;
+    border: 10px solid blue;
+    margin: 10px;
+    
+}
+
+#box div {
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px green;
+    width: 100px;
+    aspect-ratio: 1/1;
+}
