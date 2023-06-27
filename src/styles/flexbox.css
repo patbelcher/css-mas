@@ -1,0 +1,22 @@
+/*make a container for all flex items*/
+.flex-container {
+    display: flex;
+    /*flex-direction: row-reverse; */
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    background-color: yellow;
+    
+}
+
+.flex-container div {
+    border: 2px solid black;
+    width: 30%;
+    background-color: green;
+    flex-grow:1;
+    height: 50px;
+    
+    
+    
+}
+
